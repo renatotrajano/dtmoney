@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-    background: var(--blue);
+    background: #000;
 `;
 
 export const Content = styled.div`
     max-width: 1120px;
     margin: 0 auto;
+
+    .addImg {
+            width: 25px;
+            height: 25px;
+        }
 
     //1rem = 16px (definido no root)
     padding: 2rem 1rem 12rem;
@@ -17,9 +22,10 @@ export const Content = styled.div`
     button {
         font-size: 1rem;
         color: #FFF;
-        background: var(--blue-light);
+        background: var(--green);
         border: 0;
-        padding: 0 2rem;
+        padding: 0 1rem;
+        padding-top: 0.4rem;
         border-radius: 0.25rem;
         height: 3rem;
 
