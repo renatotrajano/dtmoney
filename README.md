@@ -1,11 +1,6 @@
 <h1 align="center"> <img src='./public/favicon.png'> dtmoney</h1>
 <p>Gerenciador de finanças</p>
 
-<p>
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#instalacao">Instalação</a> • 
-</p>
-
 <h4 align="center"> 
 	🚧  aplicação somente com frontend... api com miragejs  🚧
 </h4>
