@@ -1,14 +1,12 @@
 
-<img src='./public/favicon.png'>
+<img src='./public/favicon.png' align="center">
 
 <h1 align="center">dtmoney</h1>
 <p>Gerenciador de finanças</p>
 
 <p>
- <a href="#sobre">Sobre</a> •
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#instalacao">Instalação</a> • 
- <a href="#licenca">Licença</a> • 
+ <a href="###tecnologias">Tecnologias</a> • 
+ <a href="###instalacao">Instalação</a> • 
 </p>
 
 <h4 align="center"> 
