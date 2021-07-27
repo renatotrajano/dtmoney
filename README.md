@@ -1,12 +1,9 @@
-
-<img src='./public/favicon.png' align="center">
-
-<h1 align="center">dtmoney</h1>
+<h1 align="center"> <img src='./public/favicon.png'> dtmoney</h1>
 <p>Gerenciador de finanças</p>
 
 <p>
- <a href="###tecnologias">Tecnologias</a> • 
- <a href="###instalacao">Instalação</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#instalacao">Instalação</a> • 
 </p>
 
 <h4 align="center"> 
@@ -21,7 +18,7 @@
   <img alt="dtmoney" src="./src/assets/banner2.png" />
 </h1>
 
-### 🛠 Tecnologias
+# 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -31,7 +28,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [MirageJS](https://miragejs.com/)
 - [Polished](https://polished.js.org/)
 
-### Instalação
+# Instalação
 
 ```bash
 # Clone este repositório
