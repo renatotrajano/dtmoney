@@ -28,6 +28,7 @@ interface TransactionsProviderProps {
 interface TransactionsContextData {
     transactions: Transaction[];
     createTransaction: (transaction: TransactionInput) => Promise<void>;
+    removeTransaction: (transactionId: number) => void;
 }
 
 const TransactionContext = createContext<TransactionsContextData>(
@@ -55,8 +56,24 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
         ]);
     }
 
+    const removeTransaction = (transactionId: number) => {
+        try {
+            const updatedTransactions = [...transactions];
+            const transactionIndex = updatedTransactions.findIndex(transaction => transaction.id === transactionId);
+
+            if (transactionIndex >= 0) {
+                updatedTransactions.splice(transactionIndex, 1);
+                setTransactions(updatedTransactions);
+            } else {
+                throw Error();
+            }
+        } catch {
+            alert('Erro ao remover');
+        }
+    }
+
     return (
-        <TransactionContext.Provider value={{ transactions, createTransaction }}>
+        <TransactionContext.Provider value={{ transactions, createTransaction, removeTransaction}}>
             {children}
         </TransactionContext.Provider>
     )
